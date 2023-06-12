@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { checkPassword, validateEmail } from './utils/helpers';
 
 function Form() {
   const [email, setEmail] = useState('');
