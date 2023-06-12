@@ -9,7 +9,20 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/public/jekyll-and-hyde-removebg-preview.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,11 +37,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Andrew Breytenbach | Full Stack Web Developer</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <!-- <div id="root"></div> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +52,321 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <header>
+      <h1>Andrew Breytenbach</h1>
+        <ul>
+          <li><a class="active" href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="img/about-me.JPG" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3>Full-Stack Web Developer</h3>
+        <p>I am a passionate and dedicated front-end web developer with experience in creating
+          visually appealing and fully responsive web applications. My strong technical background and proficiency
+          in a wide range of front-end technologies enable me to craft engaging, user-friendly experiences that
+          stand out in today's competitive digital landscape. </p>
+
+          <p>My expertise lies in HTML5, CSS3, JavaScript (ES6+), and various modern front-end
+          libraries and frameworks. I have a proven track record of successfully utilizing these technologies to
+          develop and maintain websites, web applications, and digital products that adhere to industry best
+          practices and accessibility standards. </p>
+
+        <p>As a detail-oriented developer, I place a strong emphasis on clean, maintainable, and
+          modular code, always striving for optimal performance and seamless cross-browser compatibility. I am
+          well-versed in CSS preprocessors and have experience with build tools that help me streamline my
+          development process and deliver high-quality projects on time. </p>
+
+          <p>Collaboration and communication are key components of my work ethic. I have
+          successfully collaborated with multidisciplinary teams to achieve shared goals and deliver exceptional end
+          products. My ability to communicate effectively allows me to translate complex technical concepts into
+          digestible information for technical and non-technical stakeholders. </p>
+
+          <p>Continual learning and self-improvement are at the core of my professional philosophy.
+          I stay up-to-date with the latest industry trends and emerging technologies, ensuring that my skills
+          remain relevant and that I am always equipped to provide innovative solutions to any challenge. </p>
+
+          <p>In summary, as an accomplished front-end web developer, I am committed to using my
+          extensive skill set and passion for innovation to create captivating, user-centered web experiences. I am
+          excited to bring my expertise to your team and contribute to the continued success of your projects. </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+  
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Take a look at some of the projects I have had the privilege of working on:</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/color-WeatherApp.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/color-WeatherApp.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Weather App"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/weather-challenge" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/work-day-scheduler.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/work-day-scheduler.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Work Day Scheduler"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/work-day-scheduler" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/Password.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/Password.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Password Generator"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/Password-Generator" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="./img/color-quiz.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/color-quiz.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="JavaScript Quiz Game"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/coding-game-quiz" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/Match.com.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/Match.com.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="The Other Match.com"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/movie-book-match" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/RandomPlaylistGenerator.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/RandomPlaylistGenerator.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Random Playlist Generator"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/random-playlist-generator" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/ProfessionalReadmeGenerator.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/ProfessionalReadmeGenerator.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Professional Readme Generator"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/professional-readme-generator" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/SVGLogoMaker.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/SVGLogoMaker.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="SVG Logo Maker"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/svg-logo-maker" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/SQLEmployeeTracker.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/SQLEmployeeTracker.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Employee Tracker"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/sql-challenge-employee-tracker" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/EcommerceBackend.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/EcommerceBackend.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Ecommerce Backend"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/orm-ecommerce-backend" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/RegexTutorial.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/RegexTutorial.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Regex Tutorial"><i class="bx bx-plus"></i></a>
+                <a href="https://gist.github.com/andrewbreytenbach/126d57f1d4e2ea160e0ff7d7e51d0094" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./img/NoteTakerApp.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/NoteTakerApp.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Note Taker App"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/note-taker-challenge" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./img/Screenshot 2023-04-10 at 10.36.54 AM.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./img/Screenshot 2023-04-10 at 10.36.54 AM.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Fletcher Furnishings"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/andrewbreytenbach/fletcher-furnishings" title="Github Repo"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  
+
+  
+       <!-- ======= Resume Section ======= -->
+       <section id="resume" class="resume">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Resume</h2>
+            <p>Full Stack Web Developer with experience in developing front-end website architecture, creating servers and databases for functionality, ensuring responsiveness of applications, designing and developing APIs, and ensuring cross-platform optimization. Proficient in HTML, CSS, JavaScript, and Node. Adept at collaborating with graphic designers to create visually appealing web designs.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Summary</h3>
+              <div class="resume-item pb-0">
+                <h4>Andrew Breytenbach</h4>
+                <p><em>Full Stack Web Developer with a passion for solving complex problems and delivering exceptional user experiences.</em></p>
+                <ul>
+                  <li>Charleston, SC</li>
+                  <li>(224) 409-6724</li>
+                  <li>andrewmartinbreytenbach@gmail.com</li>
+                </ul>
+              </div>
+  
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Full Stack Web Developer Bootcamp</h4>
+                <h5>2023</h5>
+                <p><em>UNC-Chapel Hill, Chapel Hill, NC</em></p>
+                <p>This part-time coding program curriculum covers front end and back end technologies. Completing the program has given the skills needed to become a full stack web developer.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Master of Divinity</h4>
+                <h5>2019 - 2021</h5>
+                <p><em>Southeastern Baptist Theological Seminary, Wake Forest, NC</em></p>
+                <p>The Master of Divinity program is designed to provide students with a deep understanding of the Christian faith, including its history, theology, and practical application. The program includes courses in biblical studies, church history, theology, ethics, homiletics, and pastoral care, as well as practical ministry experience. It has given me the skills and knowledge needed to serve as a leader in Christian ministry, including preaching, teaching, counseling, and pastoral care.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Bachelor of Arts, Accounting</h4>
+                <h5>2015 - 2019</h5>
+                <p><em>Indiana Wesleyan University, Marion, IN</em></p>
+                <p>This accounting degree program encompasses a comprehensive range of accounting principles and practices, including financial accounting, managerial accounting, taxation, auditing, and accounting information systems. By completing this program, I possess the essential skills and knowledge required to pursue a career as a professional accountant.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Assistant Manager & CrossFit Coach</h4>
+                <h5>2022</h5>
+                <p><em>United Fitness CrossFit, Raleigh, NC </em></p>
+                <ul>
+                  <li>Led and supervised group coaching sessions, providing live feedback and cues for improved performance.</li>
+                  <li>Developed and maintained professional relationships with clients to enhance their gym experience and ensure continued involvement.</li>
+                  <li>Actively engaged in professional development and continuing education.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Young Adults Director</h4>
+                <h5>2020 - 2022</h5>
+                <p><em>The Summit Church, Durham, NC</em></p>
+                <ul>
+                  <li>Launched a ministry for young adults (20s and 30s) across all church campuses.</li>
+                  <li>Recruited and led a team of guest services coordinator, social media/event coordinator, worship leader,
+                    and volunteers.</li>
+                  <li>Planned, executed, and preached at biweekly ministry gatherings, midweek Bible studies, retreats, and short-term mission trips.</li>
+                  <li>Wrote and edited a weekly digital email to 1,000 subscribers about current issues and upcoming events related to the ministry.</li>
+                  <li>Provided administrative and operational support to the senior pastor (JD Greear) at SBC conferences and events.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Inventory Control and Strategic Operations Associate</h4>
+                <h5>2018-2019</h5>
+                <p><em>Slingshot, Marion, IN </em></p>
+                <ul>
+                  <li>Oversaw a returns process with vendors/suppliers and generated $760,000 in company revenue.</li>
+                  <li>Collaborated with Accounting, Information Technology, and Product Development teams on various
+                    projects.</li>
+                  <li>Conducted data analysis using SQL queries and databases to improve warehouse efficiency.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Resume Section -->
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+  
+    <footer>
+      <p>Connect with me:</p>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/andrewbreytenbach?tab=repositories" class="github"><i class="bx bxl-github">GitHub</i></a>
+          <a href="www.linkedin.com/in/andrew-breytenbach" class="linkedin"><i class="bx bxl-linkedin">LinkedIn</i></a>
+        </div>
+    </footer>
   </body>
 </html>
