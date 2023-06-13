@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hero() {
+function Home() {
   return (
     <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
       <div className="hero-container" data-aos="fade-in">
@@ -11,4 +11,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;

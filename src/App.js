@@ -1,31 +1,30 @@
 import React, { Component } from 'react';
-import Hero from './components/Hero';
-import Header from './components/Header';
-import About from './components/About';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 
 class App extends Component {
   render() {
   return (
-    <div className="App">
-    <Header />
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-8">
-          <Hero />
-          <About />
-          <Resume />
-          <Portfolio />
-          <Contact />
-        </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
       </div>
-    </div>
-    <Footer />
-  </div>
+    </Router>
 );
 }
 }

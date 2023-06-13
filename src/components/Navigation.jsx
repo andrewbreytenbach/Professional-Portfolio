@@ -1,21 +1,24 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
     <nav>
-      {/* Added the navigation links here */}
+
       <ul>
         <li>
-          <a href="#about">About Me</a>
+        <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+        <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+        <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+        <Link to="/resume">Resume</Link>
+        </li>
+        <li>
+        <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

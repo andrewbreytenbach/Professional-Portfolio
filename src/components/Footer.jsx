@@ -3,6 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
+    
       <p>Connect with me:</p>
       <div className="social-links mt-3 text-center">
         <a href="https://github.com/andrewbreytenbach?tab=repositories" className="github">
@@ -12,6 +13,7 @@ const Footer = () => {
           <i className="bx bxl-linkedin">LinkedIn</i>
         </a>
       </div>
+      
     </footer>
   );
 };
