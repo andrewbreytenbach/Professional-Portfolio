@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Home from './components/home';
+import Navigation from './components/navigation';
+import Footer from './components/footer';
+import About from './components/about';
+import Portfolio from './components/portfolio';
+import Resume from './components/resume';
+import Contact from './components/contact';
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Navigation />
         <Routes>
-          <Route path="/home" element={<Home />} />
+        <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

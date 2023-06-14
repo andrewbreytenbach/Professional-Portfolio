@@ -5,6 +5,7 @@ const Resume = () => {
     <section id="resume" className="resume">
       <div className="container">
         <div className="section-title">
+        <br></br>
           <h2>Resume</h2>
           <p>Full Stack Web Developer with experience in developing front-end website architecture, creating servers and databases for functionality, ensuring responsiveness of applications, designing and developing APIs, and ensuring cross-platform optimization. Proficient in HTML, CSS, JavaScript, and Node. Adept at collaborating with graphic designers to create visually appealing web designs.</p>
         </div>
