@@ -12,7 +12,7 @@ function About() {
       <h3>Full-Stack Web Developer</h3>
       <ul>
         <li>
-          <strong><i class="fas fa-check"></i>Expertise:</strong> HTML5, CSS3, JavaScript (ES6+), front-end libraries and frameworks
+          <strong><i class="fas fa-check"></i>Expertise:</strong> JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, MySQL, Express, React, Node, Handlebars, jQuery, Bootstrap 
         </li>
         <li>
           <strong><i class="fas fa-check"></i>Skills:</strong> Clean code, performance optimization, cross-browser compatibility
