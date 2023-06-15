@@ -75,4 +75,4 @@ If you have any questions or would like to learn more about this project, feel f
 * [Heroku] (https://www.heroku.com/)
 * [React] (https://reactjs.org/)
 * [https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/] (Freecodecamp.org React Portfolio Tutorial)
-* [file:///Users/andrewbreytenbach/Downloads/personal-portfolio-main/index.html] (Personal Portfolio I based this one on)
+* [https://andrewbreytenbach.github.io/personal-portfolio/] (Personal Portfolio I based this one on)
