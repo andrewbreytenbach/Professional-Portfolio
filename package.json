@@ -1,5 +1,5 @@
 {
-  "name": "00-practice-app",
+   "name": "react-professional-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "start": "react-scripts start",
