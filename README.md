@@ -26,7 +26,7 @@ The Web Developer Portfolio offers the following key features:
 ## Getting Started
 To view and run the Web Developer Portfolio on your local machine, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/web-developer-portfolio.git
+1. Clone the repository: git clone https://github.com/andrewbreytenbach/react-professional-portfolio
 2. Navigate to the project directory: cd web-developer-portfolio
 3. Install the necessary dependencies: npm install
 4. Start the development server: npm start
@@ -39,15 +39,31 @@ Once you have the Web Developer Portfolio running, you can explore its various s
 * Navigation: The navigation titles include "About Me," "Portfolio," "Contact," and "Resume." The current section's title is highlighted.
 * Content Sections: Clicking on a navigation title reveals the corresponding section's content below the navigation without page reloading, and highlights the title.
 * About Me: The "About Me" section showcases a recent photo or avatar of the developer and provides a short bio introducing them.
+
+
+![](./public/img/about.png)
+
 * Portfolio: In the "Portfolio" section, six titled images of the developer's applications are displayed. Each image links to the deployed application and its GitHub repository.
+
+
+![](./public/img/portfolio.png)
+
 * Contact: The "Contact" section presents a contact form with fields for name, email address, and message. The form validates user input and provides necessary notifications.
+
+
+![](./public/img/contact.png)
+
 * Resume: The "Resume" section offers a link to download the developer's resume and lists their skills and proficiencies.
+
+![](./public/img/resume.png)
+
+
 * Footer: The footer includes text or icon links to the developer's GitHub, LinkedIn, and an additional platform profile.
 
 ## Contact
 If you have any questions or would like to learn more about this project, feel free to reach out through the following channels:
 
-* GitHub: andrewbreytenbach
+* GitHub: https://github.com/andrewbreytenbach/react-professional-portfolio
 * View the finished application here: https://tech-blog-challenge-14.herokuapp.com/ 
 
 ## Acknowledgments
