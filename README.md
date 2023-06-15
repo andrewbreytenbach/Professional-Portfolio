@@ -64,7 +64,7 @@ Once you have the Web Developer Portfolio running, you can explore its various s
 If you have any questions or would like to learn more about this project, feel free to reach out through the following channels:
 
 * GitHub: https://github.com/andrewbreytenbach/react-professional-portfolio
-* View the finished application here: https://tech-blog-challenge-14.herokuapp.com/ 
+* View the finished application here: https://react-professional-portolio.herokuapp.com/
 
 ## Acknowledgments
 * [Handlebars.js](https://handlebarsjs.com/)
