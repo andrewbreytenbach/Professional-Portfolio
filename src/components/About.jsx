@@ -5,7 +5,7 @@ function About() {
 <section class="about">
   <div class="content">
     <div class="image">
-      <img src="./css/background.png" alt="Personal Photo" />
+      <img src="./css/background.png" alt="Personal" />
     </div>
     <div class="text">
     <br></br>

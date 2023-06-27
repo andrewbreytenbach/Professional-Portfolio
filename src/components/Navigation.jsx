@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <div id="header">
       <div class="profile">
-        <img src="./img/IMG_8850.JPG" alt="Profile Image" />
+        <img src="./img/IMG_8850.JPG" alt="Profile" />
         <h1>
             Andrew Breytenbach | Full-Stack Web Developer
         </h1>
