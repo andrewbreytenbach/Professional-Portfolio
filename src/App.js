@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import About from './components/About';
+import About from './components/about';
 import Portfolio from './components/portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Resume from './components/resume';
+import Contact from './components/contact';
 
 
 class App extends Component {
@@ -16,10 +16,10 @@ class App extends Component {
         <Navigation />
         <Routes>
         <Route path="/" element={<About />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/Resume" element={<Resume />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
